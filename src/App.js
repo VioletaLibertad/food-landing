@@ -1,9 +1,10 @@
 import React from 'react';
+import Home from './views/Home';
 
 function App() {
   return (
     <div>
-      Holoooooooooo
+      <Home />
     </div>
   );
 }

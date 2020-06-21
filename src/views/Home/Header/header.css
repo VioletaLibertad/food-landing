@@ -1,0 +1,76 @@
+.bg_img {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../../assets/img/hero-background.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_logo {
+  margin: 4rem 6rem;
+}
+
+.header_social {
+  padding: 2.6rem;
+  position: sticky;
+}
+
+.header_social button {
+  margin-right: 3rem;
+  width: 5.5rem;
+  height: 5.5rem;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  box-sizing: border-box;
+  backdrop-filter: blur(14px);
+}
+
+.header_social button img {
+  height: 2.3rem;
+}
+
+.fb_button {
+  border: 3px solid #009CD9;
+}
+
+.ig_button {
+  border: 3px solid #B72C2C;
+}
+
+.yt_button {
+  border: 3px solid #D8AD3D;
+}
+
+.header_title {
+  position: absolute;
+  left: 9.09%;
+  right: 46.81%;
+  top: 22.78%;
+  bottom: 79.92%;
+  z-index: 999;
+}
+
+.header_title h2 {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 120px;
+  line-height: 83%;
+  display: flex;
+  align-items: center;
+  color: #3F454A;
+}
+
+.header_title_decoration img {
+  position: absolute;
+  width: 1312px;
+  height: 174px;
+  left: -475.85px;
+  top: 373.62px;
+  transform: rotate(2.4deg);
+}
