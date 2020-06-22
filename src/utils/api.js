@@ -11,4 +11,19 @@ export const fetchArticlesList = async (params) => {
   } else {
     return false;
   }
-}
+};
+
+export const postNewSubscription = async (data) => {
+
+  let url = 'https://5eed24da4cbc340016330f0d.mockapi.io/api/subscribe';
+
+  let response = await fetch(url, {
+    method: 'POST',
+    body: JSON.stringify(data),
+  });
+  if (response.ok) {
+    return true;
+  } else {
+    return false;
+  }
+};

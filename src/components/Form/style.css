@@ -1,13 +1,13 @@
 .contact_form {
   padding: 0 3rem;
   display: flex;
+  max-width: 75%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: auto;
 }
 
-.column_form {
-  flex: 50%;
-}
-
-.column_form label {
+.contact_form label {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: bold;
@@ -20,7 +20,7 @@
   color: #24272A;
 }
 
-.column_form input {
+.contact_form input {
   width: 350px;
   height: 50px;
   background: #FFFFFF;
@@ -31,16 +31,26 @@
   outline: none;
 }
 
-.column_form input:focus {
+.contact_form input:focus {
   border: 1px solid #D8AD3D;
 }
 
-.column_form input:invalid {
+.contact_form input.invalid {
   border: 1px solid #B72C2C;
 }
 
-.column_form input:disabled {
+.contact_form input:disabled {
   border: 1px solid #CFCFCF;
+}
+
+#mandatoryForm {
+  display: none;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #24272A;
 }
 
 .contact_form .send_btn {
@@ -56,12 +66,14 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
+  outline: none;
 }
 
 .contact_form .send_btn:hover {
   background: #009CD9;
 }
 
-.contact_form .send_btn:disabled {
+.contact_form .send_btn.disabled {
   background: #CFCFCF;
+  cursor: default;
 }
