@@ -26,12 +26,13 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #3F454A;
+  outline: none;
 }
 
 .sidebar_buttons button:hover {
   color: #D8AD3D;
 }
 
-.sidebar_buttons button:active {
+.sidebar_buttons button.active {
   color: #D8AD3D;
 }

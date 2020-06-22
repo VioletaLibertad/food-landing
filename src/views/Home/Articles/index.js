@@ -7,16 +7,18 @@ import { fetchArticlesList } from '../../../utils/api';
 
 function Articles() {
   const [articlesList, setArticlesList] = useState([]);
+  const [callMoreArticles, setCallMoreArticles] = useState('all');
 
   useEffect(() => {
-    getArticlesList();
-  });
-
-  const getArticlesList = async () => {
-    if (articlesList.length === 0) {
-      let articles = await fetchArticlesList();
+    const getArticlesList = async () => {
+      let articles = await fetchArticlesList(callMoreArticles);
       setArticlesList(articles);
-    }
+    };
+    getArticlesList();
+  }, [callMoreArticles]);
+
+  const handleMoreArticles = (data) => {
+    setCallMoreArticles(data);
   };
 
   return (
@@ -24,7 +26,7 @@ function Articles() {
       <Titles title="Nuestros artículos" />
       <div className="row articles_section">
         <div className="articles_sidebar">
-          <Sidebar />
+          <Sidebar callArticles={handleMoreArticles} />
         </div>
         <div className="articles_cards-container">
           {articlesList.length > 1 

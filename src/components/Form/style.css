@@ -28,6 +28,7 @@
   box-sizing: border-box;
   align-items: center;
   padding: 1rem;
+  outline: none;
 }
 
 .column_form input:focus {

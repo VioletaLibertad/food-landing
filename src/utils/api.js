@@ -1,8 +1,8 @@
 
-export const fetchArticlesList = async () => {
-
+export const fetchArticlesList = async (params) => {
+  
   let url = 'https://5eed24da4cbc340016330f0d.mockapi.io/api/articles';
-  // url = params.filter ? url+`?filter=${params.filter}` : url;
+  url = params !== 'all' ? url+`?filter=${params}` : url;
 
   const response = await fetch(url);
   if (response.ok) {
