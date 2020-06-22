@@ -1,6 +1,6 @@
 .bg_img {
   width: 100vw;
-  height: 100vh;
+  height: 100vh !important;
   background-image: url('../../../assets/img/hero-background.jpg');
   background-position: center;
   background-size: cover;
@@ -13,37 +13,6 @@
 
 .header_logo {
   margin: 4rem 6rem;
-}
-
-.header_social {
-  padding: 2.6rem;
-  position: sticky;
-}
-
-.header_social button {
-  margin-right: 3rem;
-  width: 5.5rem;
-  height: 5.5rem;
-  background: rgba(255, 255, 255, 0.15);
-  border-radius: 50%;
-  box-sizing: border-box;
-  backdrop-filter: blur(14px);
-}
-
-.header_social button img {
-  height: 2.3rem;
-}
-
-.fb_button {
-  border: 3px solid #009CD9;
-}
-
-.ig_button {
-  border: 3px solid #B72C2C;
-}
-
-.yt_button {
-  border: 3px solid #D8AD3D;
 }
 
 .header_title {

@@ -1,0 +1,55 @@
+.card {
+  width: 27rem;
+  height: 44rem;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  margin: 2rem 1rem;
+}
+
+.card img {
+  height: 45%;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  object-fit: contain;
+}
+
+.card_text {
+  height: 55%;
+  padding: 2rem;
+  font-family: 'Open Sans';
+  font-style: normal;
+  color: #3F454A;
+}
+
+.card_text p:first-child {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.card_text p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.card_link {
+  display: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #D8AD3D;
+  font-weight: bold;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card:hover .card_text p:first-child {
+  color: #D8AD3D;
+}
+
+.card:hover .card_link {
+  display: block;
+}
+

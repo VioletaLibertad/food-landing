@@ -1,0 +1,37 @@
+.sidebar {
+  width: 28rem;
+  height: 30rem;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  margin: 2rem 1rem;
+}
+
+.sidebar_buttons {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.sidebar_buttons button {
+  background-color: inherit;
+  border: none;
+  margin: 1rem 2rem;
+  text-align: left;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #3F454A;
+}
+
+.sidebar_buttons button:hover {
+  color: #D8AD3D;
+}
+
+.sidebar_buttons button:active {
+  color: #D8AD3D;
+}

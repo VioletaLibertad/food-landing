@@ -1,0 +1,35 @@
+.header_social {
+  padding: 2.6rem;
+  position: sticky;
+  top: 1rem;
+  right: 2rem;
+  left: 90%;
+  display: inline;
+  z-index: 99999;
+}
+
+.header_social button {
+  margin-right: 3rem;
+  width: 5.5rem;
+  height: 5.5rem;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  box-sizing: border-box;
+  backdrop-filter: blur(14px);
+}
+
+.header_social button img {
+  height: 2.3rem;
+}
+
+.fb_button {
+  border: 3px solid #009CD9;
+}
+
+.ig_button {
+  border: 3px solid #B72C2C;
+}
+
+.yt_button {
+  border: 3px solid #D8AD3D;
+}
