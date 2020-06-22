@@ -2,14 +2,17 @@ import React from 'react';
 import './style.css';
 
 
-function BaseCard() {
+function BaseCard(props) {
+
+  let cardData = props.data;
+
   return (
     <div className="card">
-      <img className="card_img" src="https://loremflickr.com/540/400/food?random=1" alt="card_image"/>
+      <img className="card_img" src={cardData.image} alt="card_image"/>
       <div className="card_text">
-        <p>Handcrafted Plastic Towels</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pulvinar risus at turpis.</p>
-        <a className="card_link" href="/">Ver Más</a>
+        <p>{cardData.title}</p>
+        <p>{cardData.content}</p>
+        <a className="card_link" href={cardData.url} target="_blank" rel="noopener noreferrer">Ver Más</a>
       </div>
     </div>
   );
