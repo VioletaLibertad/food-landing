@@ -1,19 +1,13 @@
 import React from 'react';
-import titleBrush from '../../../assets/img/heading-shape.png';
+import Titles from '../../../components/Titles';
 import Sidebar from '../../../components/Sidebar/index';
 import BaseCard from '../../../components/Cards/index';
 import './articles.css';
 
-
 function Articles() {
   return (
     <section className="container">
-      <div className="row articles_title">
-        <h2>
-          Nuestros artículos
-        </h2>
-        <img src={titleBrush} alt="title_decoration"/>
-      </div>
+      <Titles title="Nuestros artículos" />
       <div className="row articles_section">
         <div className="articles_sidebar">
           <Sidebar />

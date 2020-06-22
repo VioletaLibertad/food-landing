@@ -1,0 +1,44 @@
+.contact_from {
+  padding: 0 3rem;
+  display: flex;
+}
+
+.column_form {
+  flex: 50%;
+}
+
+.contact_from label {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 24px;
+  width: 100%;
+  display: flex;
+  text-transform: uppercase;
+  color: #24272A;
+}
+
+.contact_from input {
+  width: 350px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid #CFCFCF;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.contact_from .send_btn {
+  display: block;
+  width: 170px;
+  height: 55px;
+  background: #D8AD3D;
+  border-radius: 50px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
