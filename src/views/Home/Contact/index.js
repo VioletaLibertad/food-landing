@@ -14,7 +14,6 @@ function Contact() {
     }
   };
 
-
   return (
     <section className="container">
       <Titles title="Contáctanos" />

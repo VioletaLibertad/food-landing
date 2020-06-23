@@ -1,5 +1,7 @@
 .form_section {
   margin-bottom: 15rem;
+  display: flex;
+  justify-content: center;
 }
 
 .succesful_subscription {

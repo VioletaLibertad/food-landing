@@ -1,9 +1,5 @@
 .contact_form {
   padding: 0 3rem;
-  display: flex;
-  max-width: 75%;
-  flex-wrap: wrap;
-  flex-direction: row;
   margin: auto;
 }
 
@@ -23,6 +19,7 @@
 .contact_form input {
   width: 350px;
   height: 50px;
+  margin-bottom: 2rem;
   background: #FFFFFF;
   border: 1px solid #CFCFCF;
   box-sizing: border-box;
@@ -57,6 +54,7 @@
   display: block;
   width: 170px;
   height: 55px;
+  margin: 2rem auto;
   background: #D8AD3D;
   border-radius: 50px;
   border: none;
