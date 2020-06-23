@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/food-landing/static/css/main.afb7c6e6.chunk.css",
+    "main.js": "/food-landing/static/js/main.8b9d2090.chunk.js",
+    "main.js.map": "/food-landing/static/js/main.8b9d2090.chunk.js.map",
+    "runtime-main.js": "/food-landing/static/js/runtime-main.dff22af7.js",
+    "runtime-main.js.map": "/food-landing/static/js/runtime-main.dff22af7.js.map",
+    "static/js/2.6538ab3a.chunk.js": "/food-landing/static/js/2.6538ab3a.chunk.js",
+    "static/js/2.6538ab3a.chunk.js.map": "/food-landing/static/js/2.6538ab3a.chunk.js.map",
+    "index.html": "/food-landing/index.html",
+    "precache-manifest.d6b8e4e99ec74724d5021a18c7edaee0.js": "/food-landing/precache-manifest.d6b8e4e99ec74724d5021a18c7edaee0.js",
+    "service-worker.js": "/food-landing/service-worker.js",
+    "static/css/main.afb7c6e6.chunk.css.map": "/food-landing/static/css/main.afb7c6e6.chunk.css.map",
+    "static/js/2.6538ab3a.chunk.js.LICENSE.txt": "/food-landing/static/js/2.6538ab3a.chunk.js.LICENSE.txt",
+    "static/media/facebook-icon.svg": "/food-landing/static/media/facebook-icon.137184db.svg",
+    "static/media/heading-shape.png": "/food-landing/static/media/heading-shape.286d6d23.png",
+    "static/media/header.css": "/food-landing/static/media/hero-background.38c977eb.jpg",
+    "static/media/hero-shape.png": "/food-landing/static/media/hero-shape.bf37f5f1.png",
+    "static/media/instagram-icon.svg": "/food-landing/static/media/instagram-icon.42609a99.svg",
+    "static/media/logo.svg": "/food-landing/static/media/logo.d0836d9e.svg",
+    "static/media/youtube-icon.svg": "/food-landing/static/media/youtube-icon.1329efff.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dff22af7.js",
+    "static/js/2.6538ab3a.chunk.js",
+    "static/css/main.afb7c6e6.chunk.css",
+    "static/js/main.8b9d2090.chunk.js"
+  ]
+}
